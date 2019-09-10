@@ -1,0 +1,24 @@
+.main2_bottom{
+    width:100%;
+    height:50px;
+    border:px solid red;
+    position:absolute;
+    bottom:0;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgba(0,0,0,0.8);
+    opacity:0.3;
+    transition:1s;
+    animation:fadeDown 1s ease-in-out;
+}
+
+@keyframes fadeDown{
+    0%{
+        bottom:-50px;
+    }
+    100%{
+        bottom:0px;
+    }
+}

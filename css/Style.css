@@ -1,0 +1,72 @@
+@import"Time.css";
+@import"Day.css";
+@import"Locked.css";
+@import"Weather.css";
+@import"main2_top.css";
+@import"main2_middle.css";
+@import"main2_bottom.css";
+@import"openWindow.css";
+
+
+*{
+    padding:0; 
+    margin:0; 
+    list-style:none;
+    font-family: 'Livvic', sans-serif;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    
+}
+
+a { 
+    color: white;
+ }
+
+a:link { 
+    color: white; 
+}
+
+a:visited { 
+    color: white;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    
+}
+
+.main1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    width:100%;
+    height:100%;
+    bottom:0%;
+    background-image:url(../image/background1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+}
+
+.main2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    width:100%;
+    height:100%;
+    bottom:0%;
+    background-image:url(../image/background1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.background{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    /*background-image:url("../image/imgNumber1.jpg");*/
+}

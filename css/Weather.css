@@ -1,0 +1,11 @@
+.Weather_box{
+    width:600px;
+    height:50px;
+    text-align:center;
+    border:px solid red;
+    line-height:50px;
+
+    position:absolute;
+    bottom:50px;
+
+}
