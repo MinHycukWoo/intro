@@ -1,11 +1,12 @@
 .open_window{
     width:800px;
-    height:400px;
+    height:800px;
     border:3px solid black;
     position:absolute;
     top:calc(100% - 50%);
     transform:translate(0,-50%);
     border-radius:20px;
+    box-sizing:border-box;
     
 }
 
@@ -29,9 +30,63 @@
 }
 .show_window{
     width:100%;
-    height:370px;
+    height:770px;
     border:px solid blue;
     overflow:auto;
     overflow-x:hidden;
     background-color:white;
+}
+
+
+@media screen and (max-width:1200px){
+    .open_window{
+        width:700px;
+        height:500px;
+        
+    }
+    
+    .window_top{
+        width:100%;
+        height:30px;
+        
+    }
+    .window_top>span{
+        margin-top:5px;
+        margin-right:20px;
+        font-size:20px;
+    }
+    .show_window{
+        width:100%;
+        height:470px;
+    }
+}
+
+@media screen and (min-width:1201px){
+
+}
+
+@media screen and (max-width:800px){
+    .open_window{
+        width:350px;
+        height:500px;
+        
+    }
+    
+    .window_top{
+        width:100%;
+        height:30px;
+        
+    }
+    .window_top>span{
+        margin-top:5px;
+        margin-right:20px;
+        font-size:20px;
+    }
+    .show_window{
+        width:100%;
+        height:470px;
+    }
+}
+@media screen and (min-width:801px){
+
 }

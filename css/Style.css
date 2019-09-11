@@ -70,3 +70,19 @@ body{
     height:100vh;
     /*background-image:url("../image/imgNumber1.jpg");*/
 }
+
+    @media screen and (max-width:1200px){
+        
+    }
+
+    @media screen and (min-width:1201px){
+        
+    }
+
+    @media screen and (max-width:800px){
+        
+    }
+        
+    @media screen and (min-width:801px){
+        
+    }

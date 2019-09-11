@@ -17,3 +17,56 @@
 .trun_icon{
     font-size:200px;
 }
+
+@media screen and (max-width:1200px){
+    .Locked_box{
+        width:600px;
+        height:300px;
+        line-height:300px;
+        bottom:100px;
+    }
+}
+
+@media screen and (min-width:1201px){
+
+}
+
+@media screen and (max-width:800px){
+    .Locked_box{
+        width:600px;
+        height:300px;
+        line-height:300px;
+        bottom:100px;
+    }
+}
+
+@media screen and (min-width:801px){
+
+}
+
+
+
+@media screen and (max-height:801px){
+    .Locked_box{
+        width:600px;
+        height:300px;
+        line-height:300px;
+        bottom:200px;
+    }
+}
+
+@media screen and (min-height:1201px){
+
+}
+@media screen and (max-height:701px){
+    .Locked_box{
+        width:600px;
+        height:300px;
+        line-height:300px;
+        bottom:150px;
+    }
+}
+
+@media screen and (min-height:1201px){
+
+}
